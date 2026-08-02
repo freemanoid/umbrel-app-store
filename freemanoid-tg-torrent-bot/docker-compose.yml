@@ -1,10 +1,14 @@
 version: "3.7"
 services:
+  app_proxy:
+    environment:
+      APP_HOST: freemanoid-tg-torrent-bot_bot_1
+      APP_PORT: 8542
+    container_name: freemanoid-tg-torrent-bot_app_proxy_1
   bot:
     image: ghcr.io/freemanoid/tg-torrent-bot:1.0.3@sha256:8d8e236282c6587fea66048b81b6b1d8ec27f9fbf4759debc8ec07f1951f736c
     restart: on-failure
     stop_grace_period: 30s
-    env_file: ${APP_DATA_DIR}/.env
     volumes:
       - ${APP_DATA_DIR}/data:/data
     container_name: freemanoid-tg-torrent-bot_bot_1
