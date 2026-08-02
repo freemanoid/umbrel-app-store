@@ -4,7 +4,7 @@ name: TG Torrent Bot
 tagline: Search and download torrents from Telegram via Prowlarr and Transmission
 icon: ""
 category: media
-version: "1.0.0"
+version: "1.0.1"
 port: 8542
 description: >-
   Telegram bot for torrent automation. Send any text to search your Prowlarr
@@ -23,7 +23,7 @@ submission: https://github.com/freemanoid/umbrel-app-store
 repo: ""
 support: https://github.com/freemanoid/umbrel-app-store/issues
 gallery: []
-releaseNotes: ""
+releaseNotes: "Generic help examples; image linked to public source repo."
 dependencies:
   - transmission
   - prowlarr
