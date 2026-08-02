@@ -2,7 +2,7 @@ manifestVersion: 1
 id: freemanoid-tg-torrent-bot
 name: TG Torrent Bot
 tagline: Search and download torrents from Telegram via Prowlarr and Transmission
-icon: ""
+icon: https://raw.githubusercontent.com/freemanoid/umbrel-app-store/master/freemanoid-tg-torrent-bot/icon.svg
 category: media
 version: "1.0.3"
 port: 8542
