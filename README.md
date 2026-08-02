@@ -10,7 +10,7 @@ Add it on your Umbrel: App Store → ⋯ → Community App Stores → paste this
 
 Headless Telegram bot: interactive torrent search via Prowlarr → download via
 Transmission, plus filter-based subscriptions (auto-download new releases).
-Image: `ghcr.io/freemanoid/tg-torrent-bot` (source repo is private).
+Image: `ghcr.io/freemanoid/tg-torrent-bot`, source: [freemanoid/tg-torrent-bot](https://github.com/freemanoid/tg-torrent-bot).
 
 Configuration — the app expects `.env` in its app-data directory
 (`~/umbrel/app-data/freemanoid-tg-torrent-bot/.env`):
