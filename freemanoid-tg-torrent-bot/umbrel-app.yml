@@ -16,9 +16,9 @@ description: >-
   Headless app: all interaction happens in Telegram. Requires a .env file in the
   app's data directory (Telegram token, allowed chat id, Prowlarr and
   Transmission URLs) — see the repo README.
-developer: freemanoid
+developer: tg-torrent-bot
 website: ""
-submitter: freemanoid
+submitter: tg-torrent-bot
 submission: https://github.com/freemanoid/umbrel-app-store
 repo: ""
 support: https://github.com/freemanoid/umbrel-app-store/issues

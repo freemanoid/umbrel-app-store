@@ -1,6 +1,6 @@
-# Freemanoid's Umbrel app store
+# TG Torrent Bot Umbrel app store
 
-Personal [Umbrel community app store](https://github.com/getumbrel/umbrel-community-app-store).
+A single-app [Umbrel community app store](https://github.com/getumbrel/umbrel-community-app-store).
 
 Add it on your Umbrel: App Store → ⋯ → Community App Stores → paste this repo's URL.
 
