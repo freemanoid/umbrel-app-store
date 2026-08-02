@@ -6,7 +6,7 @@ services:
       APP_PORT: 8542
     container_name: freemanoid-tg-torrent-bot_app_proxy_1
   bot:
-    image: ghcr.io/freemanoid/tg-torrent-bot:1.5.0@sha256:940ae399a4990e6a32fa3729c57aee75b99398636c4af446158b0c1c462bfcb2
+    image: ghcr.io/freemanoid/tg-torrent-bot:1.6.0@sha256:ef8c457b8b23a55b56d0565d9717c210b019e68c1fb6082759d09f538ff2ac31
     restart: on-failure
     stop_grace_period: 30s
     volumes:
