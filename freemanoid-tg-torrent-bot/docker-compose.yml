@@ -1,7 +1,7 @@
 version: "3.7"
 services:
   bot:
-    image: ghcr.io/freemanoid/tg-torrent-bot:1.0.1@sha256:301e7e605bcdab9e1136590e25e05d5657e1d5e779376c62de8bb5e6f0c597c7
+    image: ghcr.io/freemanoid/tg-torrent-bot:1.0.2@sha256:a884320bd1065f0ced47fcb434a704ac26a7f34446468c630fb5f35dd5fd2b09
     restart: on-failure
     stop_grace_period: 30s
     env_file: ${APP_DATA_DIR}/.env
